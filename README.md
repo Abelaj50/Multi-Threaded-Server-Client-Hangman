@@ -15,7 +15,7 @@ Clients may guess at a maximum of three words per category. If they do not make 
 
 ## Getting Started
 To begin with, you will want to make sure you have all technologies needed.
-* Java 8: (https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html)
+* Java 8: https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
     
 ## Technologies
 Project is created with:
