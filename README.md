@@ -20,7 +20,7 @@ To begin with, you will want to make sure you have all technologies needed. You 
 * JavaFX: https://gluonhq.com/products/javafx/
 
 Once you are ready, import the project into your IDE and run as a Java Application. You will be presented with a landing window which allows you to select between running the server or playing as a client. You can run the application again to bring about another landing screen to simultaneously run the server or client applets, and even load more clients. 
-The server is able to set the port connection, see how many clients are currently playing (based on their client number), and which clients have either connected or disconnected. The client plays the game and is able to make choose a category to guess from and make guesses. This is the basis of the game, and further details are documented in #general-info.
+The server is able to set the port connection, see how many clients are currently playing (based on their client number), and which clients have either connected or disconnected. The client plays the game and is able to make choose a category to guess from and make guesses. This is the basis of the game, and further details are documented in [General Info](#general-info).
 
 ***NOTE:*** If you are having issues with installation in Eclipse, the two most common fixes are:
 * Run fix: https://stackoverflow.com/a/57747229
