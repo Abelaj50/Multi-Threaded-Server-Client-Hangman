@@ -13,10 +13,10 @@ This project is the third project for CS 342 (Software Design) at the University
 
 The client will guess a letter and send it to the server. The server will respond with either: the letter is in the word and where that letter is located or the letter is not in the word and how many guesses are left. If the client guesses the word within 6 letter guesses, they can not guess at another word in the same category but must chose from the two remaining. If they do not guess the word correctly, they are free to choose from any of the three categories for another word. 
 
-Clients may guess at a maximum of three words per category. If they do not make a correct guess within three attempts, the game is over. The game is won when the client successfully guesses one word in each category. When the game is over, the client can either play again or quit.
+Clients may guess at a maximum of _three_ words per category. If they do not make a correct guess within three attempts, the game is over. The game is won when the client successfully guesses one word in each category. When the game is over, the client can either play again or quit.
 
 ## Getting Started
-To begin with, you will want to make sure you have all technologies needed. You can use your IDE of choice but Eclipse is strongly suggested for this project.
+To begin with, you will want to make sure you have all technologies needed. You can use your IDE of choice but Eclipse is **strongly** suggested for this project.
 * Java 8: https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
 * Maven: https://maven.apache.org/install.html
 * JavaFX: https://gluonhq.com/products/javafx/
