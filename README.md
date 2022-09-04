@@ -14,8 +14,17 @@ The client will guess a letter and send it to the server. The server will respon
 Clients may guess at a maximum of three words per category. If they do not make a correct guess within three attempts, the game is over. The game is won when the client successfully guesses one word in each category. When the game is over, the client can either play again or quit.
 
 ## Getting Started
-To begin with, you will want to make sure you have all technologies needed.
+To begin with, you will want to make sure you have all technologies needed. You can use your IDE of choice but Eclipse is strongly suggested for this project.
 * Java 8: https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
+* Maven: https://maven.apache.org/install.html
+* JavaFX: https://gluonhq.com/products/javafx/
+
+Once you are ready, import the project into your IDE and run as a Java Application. You will be presented with a landing window which allows you to select between running the server or playing as a client. You can run the application again to bring about another landing screen to simultaneously run the server or client applets, and even load more clients. 
+The server is able to set the port connection, see how many clients are currently playing (based on their client number), and which clients have either connected or disconnected. The client plays the game and is able to make choose a category to guess from and make guesses. This is the basis of the game, and further details are documented in #general-info.
+
+***NOTE:*** If you are having issues with installation in Eclipse, the two most common fixes are:
+* Run fix: https://stackoverflow.com/a/57747229
+* JavaFX fix: https://youtu.be/LOaUsrjJ_rs?t=210
     
 ## Technologies
 Project is created with:
